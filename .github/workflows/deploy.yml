@@ -1,4 +1,4 @@
-name: Deploy Website
+name: Deploy
 on:
   push:
     branches:
@@ -22,14 +22,40 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+      - name: Install dependencies
+        run: npm ci
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Create build directory
+        run: mkdir build
+
+      - name: Generate resume-website.json
+        run: node update-contact-details.js resume.json resume-website.json
+      - name: Validate resume-website.json
+        run: npx resumed validate resume-website.json
       - name: Generate website
-        run: echo "Hello World" > index.html
+        run: npx resumed export resume-website.json --output build/index.html --theme jsonresume-theme-eshaham
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./
+          path: ./build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
+      - name: Generate resume-pdf.json
+        env:
+          RESUME_EMAIL: ${{ secrets.RESUME_EMAIL }}
+          RESUME_PHONE: ${{ secrets.RESUME_PHONE }}
+        run: node update-contact-details.js --email $RESUME_EMAIL --phone $RESUME_PHONE resume.json resume-pdf.json
+      - name: Validate resume-pdf.json
+        run: npx resumed validate resume-pdf.json
+      - name: Generate pdf
+        run: node export-pdf.js resume-pdf.json build/resume.pdf
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: resume.pdf
+          path: ./build/resume.pdf
