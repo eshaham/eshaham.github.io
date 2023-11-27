@@ -4,7 +4,9 @@
   "description": "eshaham's website",
   "type": "module",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "resume serve --theme eshaham"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eshaham/eshaham.github.io.git"

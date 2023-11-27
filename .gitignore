@@ -3,6 +3,7 @@ node_modules
 
 # build
 build
+public
 
 # logs
 npm-debug.log
