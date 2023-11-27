@@ -14,7 +14,7 @@
       {
         "network": "LinkedIn",
         "username": "eshaham",
-        "url": "https://www.linkedin.com/in/eshaham/"
+        "url": "https://www.linkedin.com/in/eshaham"
       },
       {
         "network": "Twitter",
@@ -60,7 +60,7 @@
       "endDate": "2020-05-31",
       "highlights": [],
       "summary": "Managed the Risk squad at the core of this great Insurtech firm, focusing on loss ratio reduction. Collaborated with analysts and data scientists to incorporate ML risk models into the platform, enhancing fraud detection. Utilized Ruby on Rails, Python, React, and AWS.",
-      "url": "https://www.lemonade.com/",
+      "url": "https://www.lemonade.com",
       "location": "Tel Aviv Area, Israel"
     },
     {
@@ -70,7 +70,7 @@
       "endDate": "2019-03-31",
       "summary": "Managed an engineering team of five to develop a SaaS product for data scientists using Python, React, and Google Cloud Platform, streamlining their workflow and focusing on data science excellence.",
       "highlights": [],
-      "url": "https://www.linkedin.com/company/missinglinkai/",
+      "url": "https://www.linkedin.com/company/missinglinkai",
       "location": "Tel Aviv - Jaffa, Tel Aviv District, Israel"
     },
     {
@@ -90,7 +90,7 @@
       "endDate": "2016-12-31",
       "highlights": [],
       "summary": "Managed a highly skilled fullstack development team, overseeing the entire stack from DevOps to UI perfection. Engaged in cross-platform development for iOS and Android, server-side Java programming, and database management with MySQL and MongoDB. Collaborated closely with product management to define specifications and lead team planning. Contributed to BillGuard until its acquisition by Prosper Marketplace in September 2015 and the subsequent closure of the Israeli office in December 2016.",
-      "url": "https://www.linkedin.com/company/billguard/",
+      "url": "https://www.linkedin.com/company/billguard",
       "location": "Tel Aviv"
     },
     {
@@ -108,7 +108,7 @@
       "endDate": "2014-02-28",
       "highlights": [],
       "summary": "Directed team and project development, including assessment and planning. Offered expert consulting on architecture and development issues. Presented at conferences and training events, both in Israel and internationally. Designed complex WPF application architectures using Prism and MVVM. Developed mobile applications for Windows Phone and Metro Style Apps within the Microsoft ecosystem.",
-      "url": "https://www.linkedin.com/company/sela-group/"
+      "url": "https://www.linkedin.com/company/sela-group"
     },
     {
       "name": "Codewalker",
@@ -117,7 +117,7 @@
       "endDate": "2013-07-31",
       "highlights": [],
       "summary": "Worked on an exciting new e-learning platform for professional software developers.\nIn charge of the development efforts.",
-      "url": "https://www.linkedin.com/company/codewalker/",
+      "url": "https://www.linkedin.com/company/codewalker",
       "location": "Tel Aviv, Israel"
     },
     {
@@ -144,7 +144,7 @@
       "endDate": "2010-01-31",
       "highlights": [],
       "summary": "Spearheaded the applicative infrastructure team, developing products utilized by numerous developers in a large-scale project encompassing UI and server infrastructures. Constructed the foundation for a resilient WPF application and its server counterpart (WCF). Directed and synchronized efforts across approximately 12 teams, totaling 70 personnel, for a key project version. Responsibilities included system architecture design, providing developer support, and offering strategic guidance.",
-      "url": "https://www.linkedin.com/company/israelipm/"
+      "url": "https://www.linkedin.com/company/israelipm"
     },
     {
       "name": "SmarTeam",
@@ -153,7 +153,7 @@
       "endDate": "2006-12-31",
       "highlights": [],
       "summary": "Experience with Test Driven Development, Extreme Programming Techniques and Unit Testing.\nDesigned and developed new projects in C#, maintained existing legacy code in C# and Delphi.",
-      "url": "https://www.linkedin.com/company/smarteam/"
+      "url": "https://www.linkedin.com/company/smarteam"
     }
   ],
   "volunteer": [],
