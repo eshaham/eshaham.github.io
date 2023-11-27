@@ -50,7 +50,7 @@ jobs:
         run: node update-contact-details.js --email $RESUME_EMAIL --phone $RESUME_PHONE resume.json resume-pdf.json
       - name: Validate resume-pdf.json
         run: npx resumed validate resume-pdf.json
-      - name: Generate website
+      - name: Generate pdf
         run: node export-pdf.js resume-pdf.json build/resume.pdf
       - name: Upload artifact
         uses: actions/upload-artifact@v2
