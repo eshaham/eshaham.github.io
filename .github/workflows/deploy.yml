@@ -26,6 +26,8 @@ jobs:
         run: npm ci
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Create build directory
+        run: mkdir build
 
       - name: Generate resume-website.json
         run: node update-contact-details.js resume.json resume-website.json
