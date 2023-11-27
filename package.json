@@ -16,10 +16,10 @@
   },
   "homepage": "https://github.com/eshaham/eshaham.github.io#readme",
   "dependencies": {
-    "json-placeholder-replacer": "^2.0.4",
     "jsonresume-theme-eshaham": "^1.0.7",
     "puppeteer": "^21.5.2",
     "resume-cli": "^3.0.8",
-    "resumed": "^3.0.1"
+    "resumed": "^3.0.1",
+    "yargs": "^17.7.2"
   }
 }

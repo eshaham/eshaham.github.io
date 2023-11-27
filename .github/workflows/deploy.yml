@@ -28,7 +28,7 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Generate resume-website.json
-        run: node update-placeholders.js resume.json empty-variables.json resume-website.json
+        run: node update-contact-details.js resume.json resume-website.json
       - name: Validate resume-website.json
         run: npx resumed validate resume-website.json
       - name: Generate website
@@ -41,16 +41,11 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
 
-      - name: Create variables.json for PDF generation
-        uses: jsdaniell/create-json@v1.2.2
+      - name: Generate resume-pdf.json
         env:
           RESUME_EMAIL: ${{ secrets.RESUME_EMAIL }}
           RESUME_PHONE: ${{ secrets.RESUME_PHONE }}
-        with:
-          name: 'variables.json'
-          json: '{"email": "$RESUME_EMAIL", "phone": "$RESUME_PHONE"}'
-      - name: Generate resume-pdf.json
-        run: node update-placeholders.js resume.json variables.json resume-pdf.json
+        run: node update-contact-details.js --email $RESUME_EMAIL --phone $RESUME_PHONE resume.json resume-pdf.json
       - name: Validate resume-pdf.json
         run: npx resumed validate resume-pdf.json
       - name: Generate website

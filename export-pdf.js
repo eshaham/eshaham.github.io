@@ -1,10 +1,13 @@
 import { promises as fs } from 'fs';
 import * as theme from 'jsonresume-theme-eshaham';
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
 import puppeteer from 'puppeteer';
 import { render } from 'resumed';
 
-const resumeFilename = process.argv[2];
-const resumePdfFilename = process.argv[3];
+const args = yargs(hideBin(process.argv)).parse();
+const resumeFilename = args._[0];
+const resumePdfFilename = args._[1];
 
 if (!resumeFilename || !resumePdfFilename) {
   console.error('Usage: node export-pdf.js <resume.json> <resume.pdf>');
