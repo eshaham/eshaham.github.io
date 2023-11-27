@@ -1,0 +1,213 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Elad Shaham",
+    "label": "VP of Engineering at Landa | ex Lemonade",
+    "image": "https://media.licdn.com/dms/image/C4D03AQFc_u7F0RFPgA/profile-displayphoto-shrink_800_800/0/1643787075331?e=1706745600&v=beta&t=12iKS8CDxrfrK5D1x52HNARkYKGEP-AWTaVY-cvThWc",
+    "email": "{{email}}",
+    "phone": "{{phone}}",
+    "url": "https://elad.shaham.net",
+    "summary": "Experienced full-stack engineering leader with a focus on creating meaningful impact through technology. Skilled in leading and motivating high-performing teams, with roles as VP of Engineering and CTO. I blend technical expertise with entrepreneurial drive, consistently engaged in innovative side projects. Committed to building a top-tier engineering organization founded on solid values and a positive culture, I strive for excellence and impact in the tech industry.",
+    "location": {
+      "countryCode": "US",
+      "address": "Israel"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "eshaham",
+        "url": "https://www.linkedin.com/in/eshaham/"
+      },
+      {
+        "network": "Twitter",
+        "username": "eshaham",
+        "url": "https://twitter.com/eshaham"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Landa",
+      "position": "VP of Engineering",
+      "startDate": "2023-08-30",
+      "highlights": [],
+      "summary": "Building a new way for people to buy real estate at Landa. Managing the engineering and product team. Using React, React Native, and Python on AWS.",
+      "url": "http://landa.app",
+      "location": "Tel Aviv, Israel"
+    },
+    {
+      "name": "Zorro",
+      "position": "Chief Technology Officer",
+      "startDate": "2022-03-31",
+      "endDate": "2023-06-31",
+      "highlights": [],
+      "summary": "Developed foundational technology and team for a US health industry startup. Simplified complex health insurance processes, one step at a time. Utilized Node.js, React, and AWS to create a web application for employee onboarding and health plan selection. Integrated with insurance company data.",
+      "url": "https://myzorro.co",
+      "location": "Tel Aviv, Israel"
+    },
+    {
+      "name": "Lemonade",
+      "position": "Director Of Engineering",
+      "startDate": "2020-05-31",
+      "endDate": "2022-02-28",
+      "highlights": [],
+      "summary": "Oversaw Product Platform Engineering, comprising multiple independent squads with product owners and engineering managers. Spearheaded the development of foundational elements for Lemonade insurance products. Established and led the first engineering squad at the Amsterdam site. Focused on expanding the engineering team and upholding company culture. Member of Lemonade Engineering's senior leadership.",
+      "url": "https://www.lemonade.com",
+      "location": "Tel Aviv, Israel"
+    },
+    {
+      "name": "Lemonade",
+      "position": "Engineering Manager",
+      "startDate": "2019-03-31",
+      "endDate": "2020-05-31",
+      "highlights": [],
+      "summary": "Managed the Risk squad at the core of this great Insurtech firm, focusing on loss ratio reduction. Collaborated with analysts and data scientists to incorporate ML risk models into the platform, enhancing fraud detection. Utilized Ruby on Rails, Python, React, and AWS.",
+      "url": "https://www.lemonade.com/",
+      "location": "Tel Aviv Area, Israel"
+    },
+    {
+      "name": "Missing Link AI",
+      "position": "Head Of Engineering",
+      "startDate": "2018-07-31",
+      "endDate": "2019-03-31",
+      "summary": "Managed an engineering team of five to develop a SaaS product for data scientists using Python, React, and Google Cloud Platform, streamlining their workflow and focusing on data science excellence.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/missinglinkai/",
+      "location": "Tel Aviv - Jaffa, Tel Aviv District, Israel"
+    },
+    {
+      "name": "PayPal",
+      "position": "Software Engineering Manager",
+      "startDate": "2016-12-31",
+      "endDate": "2018-07-31",
+      "highlights": [],
+      "summary": "Led a team in developing financial services aimed at enhancing PayPal customers' financial health. Successfully integrated with Acorns to facilitate automatic stock market investments. Managed full-stack development, encompassing backend, web, and mobile platforms.",
+      "url": "https://www.paypal.com",
+      "location": "Tel Aviv Area, Israel"
+    },
+    {
+      "name": "BillGuard",
+      "position": "Full Stack Team Lead",
+      "startDate": "2015-04-30",
+      "endDate": "2016-12-31",
+      "highlights": [],
+      "summary": "Managed a highly skilled fullstack development team, overseeing the entire stack from DevOps to UI perfection. Engaged in cross-platform development for iOS and Android, server-side Java programming, and database management with MySQL and MongoDB. Collaborated closely with product management to define specifications and lead team planning. Contributed to BillGuard until its acquisition by Prosper Marketplace in September 2015 and the subsequent closure of the Israeli office in December 2016.",
+      "url": "https://www.linkedin.com/company/billguard/",
+      "location": "Tel Aviv"
+    },
+    {
+      "name": "YuvApps",
+      "position": "Software Consultant, Entrepreneur",
+      "startDate": "2013-07-31",
+      "endDate": "2015-04-30",
+      "highlights": [],
+      "summary": "Offered expert guidance and development services in mobile app creation and complex system architecture for software firms. Specialized in building RESTful web applications using the MEAN stack (Angular.js, Node.js, MongoDB) and Bootstrap. Collaborated with diverse clients, from startups to enterprises, notably developing AT&T's flagship online collaboration application, AT&T Connect."
+    },
+    {
+      "name": "Sela",
+      "position": "Senior Consultant",
+      "startDate": "2010-09-30",
+      "endDate": "2014-02-28",
+      "highlights": [],
+      "summary": "Directed team and project development, including assessment and planning. Offered expert consulting on architecture and development issues. Presented at conferences and training events, both in Israel and internationally. Designed complex WPF application architectures using Prism and MVVM. Developed mobile applications for Windows Phone and Metro Style Apps within the Microsoft ecosystem.",
+      "url": "https://www.linkedin.com/company/sela-group/"
+    },
+    {
+      "name": "Codewalker",
+      "position": "CTO",
+      "startDate": "2013-03-31",
+      "endDate": "2013-07-31",
+      "highlights": [],
+      "summary": "Worked on an exciting new e-learning platform for professional software developers.\nIn charge of the development efforts.",
+      "url": "https://www.linkedin.com/company/codewalker/",
+      "location": "Tel Aviv, Israel"
+    },
+    {
+      "name": "better two",
+      "position": "Co Founder & CTO",
+      "startDate": "2012-09-30",
+      "endDate": "2013-03-31",
+      "highlights": [],
+      "summary": "Created a social network for bills, which leverages the group power to cut down on monthly bills. Business decision making, website development."
+    },
+    {
+      "name": "NICE Systems",
+      "position": "Client Side Team Leader",
+      "startDate": "2010-01-31",
+      "endDate": "2010-09-30",
+      "highlights": [],
+      "summary": "Lead the development of a new product, designed V-Next infrastructure and created a plan for developing it.\nComprehensive analysis of technologies and design patterns that would be used in developing the product.",
+      "url": "https://nice.com"
+    },
+    {
+      "name": "Office of the Prime Minister of Israel",
+      "position": "Senior Software Developer",
+      "startDate": "2006-12-31",
+      "endDate": "2010-01-31",
+      "highlights": [],
+      "summary": "Spearheaded the applicative infrastructure team, developing products utilized by numerous developers in a large-scale project encompassing UI and server infrastructures. Constructed the foundation for a resilient WPF application and its server counterpart (WCF). Directed and synchronized efforts across approximately 12 teams, totaling 70 personnel, for a key project version. Responsibilities included system architecture design, providing developer support, and offering strategic guidance.",
+      "url": "https://www.linkedin.com/company/israelipm/"
+    },
+    {
+      "name": "SmarTeam",
+      "position": "Software Engineer",
+      "startDate": "2005-03-31",
+      "endDate": "2006-12-31",
+      "highlights": [],
+      "summary": "Experience with Test Driven Development, Extreme Programming Techniques and Unit Testing.\nDesigned and developed new projects in C#, maintained existing legacy code in C# and Delphi.",
+      "url": "https://www.linkedin.com/company/smarteam/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Reichman University",
+      "area": "Computer Science",
+      "studyType": "BA",
+      "startDate": "2001-12-31",
+      "endDate": "2004-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "languages": [
+    {
+      "language": "Hebrew",
+      "fluency": "Mother Tongue"
+    },
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "projects": [
+    {
+      "name": "SyncThemCalendars",
+      "startDate": "2019-02-28",
+      "summary": "A service that allows users to sync two calendars together so that their free/busy availability is reflected across their different calendars.",
+      "url": "https://syncthemcalendars.com",
+      "endDate": "2019-02-28"
+    },
+    {
+      "name": "Israeli Bank Scrapers",
+      "startDate": "2017-07-31",
+      "summary": "Provide scrapers for all major Israeli banks and credit card companies",
+      "url": "https://github.com/eshaham/israeli-bank-scrapers"
+    },
+    {
+      "name": "Agenda Paper",
+      "startDate": "2021-09-30",
+      "summary": "An open-source project to show one's agenda on an ePaper display.",
+      "url": "https://github.com/eshaham/agenda-paper",
+      "endDate": "2021-10-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

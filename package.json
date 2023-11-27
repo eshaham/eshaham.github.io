@@ -2,10 +2,9 @@
   "name": "eshaham.github.io",
   "version": "1.0.0",
   "description": "eshaham's website",
+  "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eshaham/eshaham.github.io.git"
@@ -15,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/eshaham/eshaham.github.io/issues"
   },
-  "homepage": "https://github.com/eshaham/eshaham.github.io#readme"
+  "homepage": "https://github.com/eshaham/eshaham.github.io#readme",
+  "dependencies": {
+    "json-placeholder-replacer": "^2.0.4",
+    "jsonresume-theme-eshaham": "^1.0.7",
+    "puppeteer": "^21.5.2",
+    "resume-cli": "^3.0.8",
+    "resumed": "^3.0.1"
+  }
 }
