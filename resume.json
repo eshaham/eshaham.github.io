@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Elad Shaham",
-    "label": "VP of Engineering at Landa | ex Lemonade",
+    "label": "VP R&D / CTO | ex Lemonade",
     "image": "https://media.licdn.com/dms/image/C4D03AQFc_u7F0RFPgA/profile-displayphoto-shrink_800_800/0/1643787075331?e=1706745600&v=beta&t=12iKS8CDxrfrK5D1x52HNARkYKGEP-AWTaVY-cvThWc",
     "website": "https://elad.shaham.net",
     "summary": "Experienced full-stack engineering leader with a focus on creating meaningful impact through technology. Skilled in leading and motivating high-performing teams, with roles as VP of Engineering and CTO. I blend technical expertise with entrepreneurial drive, consistently engaged in innovative side projects. Committed to building a top-tier engineering organization founded on solid values and a positive culture, I strive for excellence and impact in the tech industry.",
@@ -26,7 +26,7 @@
   "work": [
     {
       "name": "Landa",
-      "position": "VP of Engineering",
+      "position": "VP R&D",
       "startDate": "2023-08-30",
       "highlights": [],
       "summary": "Building a new way for people to buy real estate at Landa. Managing the engineering and product team. Using React, React Native, and Python on AWS.",
