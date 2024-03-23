@@ -37,6 +37,8 @@ jobs:
         run: npx resumed validate resume-website.json
       - name: Generate website
         run: npx resumed export resume-website.json --output build/index.html --theme jsonresume-theme-eshaham
+      - name: Copy photo
+        run: cp photo.jpg build/photo.jpg
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
