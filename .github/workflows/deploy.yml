@@ -57,7 +57,7 @@ jobs:
       - name: Build Html
         run: node prepare-site.js resume-pdf.json build
       - name: Serve website
-        run: npx http-server build -p 8080
+        run: forever start -c npx http-server build -p 8080
       - name: Generate pdf
         run: node export-pdf.js build/resume.pdf
       - name: Upload artifact
