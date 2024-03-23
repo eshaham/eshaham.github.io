@@ -54,8 +54,8 @@ jobs:
         run: node update-contact-details.js --email $RESUME_EMAIL --phone $RESUME_PHONE resume.json resume-pdf.json
       - name: Validate resume-pdf.json
         run: npx resumed validate resume-pdf.json
-      - name: Build Html
-        run: node prepare-site.js resume-pdf.json build
+      - name: Generate website
+        run: npx resumed export resume-pdf.json --output build/index.html --theme jsonresume-theme-eshaham
       - name: Serve website
         run: npx http-server build -p 8080 &
       - name: Generate pdf
