@@ -25,9 +25,20 @@
   },
   "work": [
     {
+      "name": "Aleph",
+      "position": "Engineer in Residence",
+      "startDate": "2024-05-10",
+      "endDate": "2024-10-10",
+      "highlights": [],
+      "summary": "Built products for Aleph's portfolio companies to help them find and recruit top talent",
+      "url": "https://aleph.vc",
+      "location": "Tel Aviv, Israel"
+    },
+    {
       "name": "Freelance",
       "position": "Fractional CTO",
       "startDate": "2023-07-01",
+      "endDate": "2024-05-10",
       "highlights": [],
       "summary": "CTO-as-a-service, helping startup companies with building initial products, proof of concepts, and hiring engineers.",
       "location": "Tel Aviv, Israel"
