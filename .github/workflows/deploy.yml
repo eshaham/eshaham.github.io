@@ -61,7 +61,7 @@ jobs:
       - name: Generate pdf
         run: node export-pdf.js build/resume.pdf
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: resume.pdf
           path: ./build/resume.pdf
