@@ -10,7 +10,9 @@ if (!resumePdfFilename) {
   process.exit(1);
 }
 
-const browser = await puppeteer.launch();
+const browser = await puppeteer.launch({
+  args: ['--no-sandbox'],
+});
 const page = await browser.newPage();
 
 await page.goto('http://localhost:8080', { waitUntil: 'networkidle0' });
